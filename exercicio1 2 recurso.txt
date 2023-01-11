@@ -1,0 +1,1 @@
+SELECT id, pnome, unome, anoNasc FROM pilotos WHERE LEFT(pnome, 1) == RIGHT(unome, 1)
