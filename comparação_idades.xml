@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ComparacaoIdade>
+    <Idade1>
+        <gato>3meses</gato>
+        <humano>4anos</humano>
+    </Idade1>
+    <Idade2>
+        <gato>6meses</gato>
+        <humano>9anos</humano>
+    </Idade2>
+    <Idade3>
+        <gato>12meses</gato>
+        <humano>15anos</humano>
+    </Idade3>
+    <Idade4>
+        <gato>18mese</gato>
+        <humano>20anos</humano>
+    </Idade4>
+    <Idade5>
+        <gato>2anos</gato>
+        <humano>24anos</humano>
+    </Idade5>
+    <Idade6>
+        <gato>4anos</gato>
+        <humano>32anos</humano>
+    </Idade6>
+    <Idade7>
+        <gato>6anos</gato>
+        <humano>40anos</humano>
+    </Idade7>
+    <Idade8>
+        <gato>8anos</gato>
+        <humano>48anos</humano>
+    </Idade8>
+    <Idade9>
+        <gato>10anos</gato>
+        <humano>56anos</humano>
+    </Idade9>
+    <Idade10>
+        <gato>12anos</gato>
+        <humano>64anos</humano>
+    </Idade10>
+    <Idade11>
+        <gato>14anos</gato>
+        <humano>72anos</humano>
+    </Idade11>
+</ComparacaoIdade>
