@@ -1,4 +1,6 @@
-table {
+table{
+    border: 1px solid black;
+    border-collapse: collapse;
     width: 35%;
     text-align: center;
     font-style: normal;
@@ -7,4 +9,9 @@ table {
 thead{
     background-color: beige;
     font-weight: bold;
+    border: 1px solid black;
+}
+tfoot{
+    border: 1px solid black;
+    background-color: beige;
 }
