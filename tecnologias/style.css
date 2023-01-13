@@ -1,0 +1,193 @@
+
+
+body {
+  font-family:'Calibri', sans-serif;
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+/* HEADER */ 
+
+  a {
+    text-decoration: none;
+    color: rgb(221, 85, 85);
+  }
+  .site-header { 
+    border-bottom: 1px solid #ccc;
+    padding: .5em 1em;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .site-identity h1 {
+    font-size: 2.0em;
+    margin: .6em 0;
+    display: inline-block;
+  }
+  
+  
+  .site-navigation ul, 
+  .site-navigation li {
+    margin: 0; 
+    padding: 0;
+    font-size: 1.2em;
+  }
+  
+  .site-navigation li {
+    display: inline-block;
+    margin: 1.4em 1em 1em 1em;
+  }
+
+  /* FOOTER */ 
+  .all-browsers {
+    margin: 0;
+    padding: 5px;
+    background-color: lightgray;
+  }
+  
+  .all-browsers > h1, .browser {
+    margin: 10px;
+    padding: 5px;
+  }
+  
+  .browser {
+    background: white;
+  }
+  
+  .browser > h2, p {
+    margin: 4px;
+    font-size: 90%;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 3px;
+    background-color: #aa6e0669;
+    color: white;
+  }
+  
+  /* BANNER */
+
+  .banner { 
+    position: relative; 
+    width: 100%;
+ }
+
+
+ /* GALERIA */
+
+/* Position the image container (needed to position the left and right arrows) */
+.container {
+  position: relative;
+}
+
+/* Six columns side by side */
+.column {
+  float: left;
+  width: 16.66%;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+/* SOBRE NÓS */
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color: #aa6e0669;
+  color: rgb(107, 107, 107);
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.numero {
+  color: grey;
+}
+
+/* TARECOS */
+
+/* Float four columns side by side */
+.coluna {
+  float: left;
+  width: 30%;
+  padding: 0 10px;
+}
+
+/* Remove extra left and right margins, due to padding */
+.ro {margin: 0 -5px;}
+
+/* Clear floats after the columns */
+.ro:after {
+  content: "";
+  display: flex;
+  clear: both;
+}
+
+
+/* Style the counter cards */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  text-align: center;
+  background-color: #f1f1f1;
+}
+
+/* TABELA */
+
+table{
+  border: 1px solid black;
+  border-collapse: collapse;
+  width: 35%;
+  text-align: center;
+}
+thead{
+  background-color: beige;
+  font-weight: bold;
+  border: 1px solid black;
+}
+tfoot{
+  border: 1px solid black;
+  background-color: beige;
+}
+ 
+/* IMAGEM PAYPAL */
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 350px;
+  height: 75px;
+}
