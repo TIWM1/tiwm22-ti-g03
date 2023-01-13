@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=100%, initial-scale=1.0">
     <title>Tarecos do ISMIAU</title>
     <link rel="stylesheet" href="style.css">
 </head>
@@ -21,22 +21,22 @@ include "header.php"
   <!-- Thumbnail images -->
   <div class="row">
     <div class="column">
-      <img class="demo cursor" src="images/gatos/gato1.jpg" style="width:100%" onclick="currentSlide(1)" >
+      <img src="images/gatos/gato1.jpg" style="width:100%">
     </div>
     <div class="column">
-      <img class="demo cursor" src="images/gatos/gato2.jpg" style="width:100%" onclick="currentSlide(2)" >
+      <img src="images/gatos/gato2.jpg" style="width:100%">
     </div>
     <div class="column">
-      <img class="demo cursor" src="images/gatos/gato3.jpg" style="width:100%" onclick="currentSlide(3)" >
+      <img src="images/gatos/gato3.jpg" style="width:100%">
     </div>
     <div class="column">
-      <img class="demo cursor" src="images/gatos/gato4.jpg" style="width:100%" onclick="currentSlide(4)">
+      <img src="images/gatos/gato4.jpg" style="width:100%">
     </div>
     <div class="column">
-      <img class="demo cursor" src="images/gatos/gato5.jpg" style="width:100%" onclick="currentSlide(5)" >
+      <img src="images/gatos/gato5.jpg" style="width:100%">
     </div>
     <div class="column">
-      <img class="demo cursor" src="images/gatos/gato6.jpg" style="width:100%" onclick="currentSlide(6)" >
+      <img src="images/gatos/gato6.jpg" style="width:100%">
     </div>
   </div>
 </div>
@@ -46,7 +46,6 @@ include "header.php"
 <?php
 include "footer.php"
 ?>
- <script type="text/javascript" src="slider.js"></script>
 </body>
 
 
