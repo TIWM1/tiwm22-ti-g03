@@ -14,7 +14,7 @@
 
 <div class="about-section">
   <h1>Sobre Nós</h1>
-  <p><h2>Tarecos ISMIAU é um site de internet que apresenta uma maneira simples de se adoptar ou anunciar para adopção um animal que tenha sido encontrado ou que esteja em risco de abandono.</h2></p>
+  <p><h2>Tarecos ISMIAU é o site da internet da associação de gatos, que apresenta uma maneira simples de se adotar ou anunciar para adoção um gato que tenha sido encontrado ou que esteja em risco de abandono. Esta associação acolhe os animais enquanto os mesmos não são adotados, tem nela presentes voluntários que ajudam no cuidado dos gatos e passam bastante tempo a fazer-lhes companhia. Sempre que acolhemos um novo gatinho atualizamos a página dos tarecos com uma foto dele e uma descrição. Se estiver interessado em adotar um dos nossos gatinhos envie email para a associação ou venha visitar-nos.</h2></p>
 </div>
 
 <h1 style="text-align:center">A EQUIPA</h1>

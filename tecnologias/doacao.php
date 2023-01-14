@@ -15,11 +15,11 @@ include "header.php"
 
 <h1 style="text-align:center">QUER DOAR ?</h1><br>
 
-<p><h2>Caso não tenha possibilidades de adotar um dos nossos gatos, mas queira na mesma ajudar a associação, pode fazer um donativo através do Paypal, 
-esse dinheiro será usado para comprar bens, rações e medicação para os nossos animais.</h2></p>
+<p><h2>Caso não tenha possibilidades de adotar um dos nossos gatos, mas queira na mesma ajudar a associação, pode fazer um donativo através do Paypal. 
+Esse dinheiro será usado para comprar bens, rações e medicação para os nossos animais.</h2></p>
 
 
-<p><h2>Se não quiser fazer donativos em forma de dinheiro pode também dirigir-se à nossa associação e doar:</h2></p>
+<p><h2>Se não quiser ajudar mas prefere não fazer donativos em forma de dinheiro pode também dirigir-se à nossa associação e doar, por exemplo:</h2></p>
 <ul>
   <li><h4>AREIA</h4></li>
   <li><h4>RAÇÃO SECA OU HÚMIDA</h4></li>
