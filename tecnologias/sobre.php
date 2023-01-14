@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=100%, initial-scale=1.0">
     <title>Sobre Nós</title>
     <link rel="stylesheet" href="style.css">
 </head>
@@ -25,7 +25,6 @@
       <div class="container">
         <h1>João Braga</h1>
         <p class="numero">A038728</p>
-        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
         <p>a038728@ipmaia.pt</p>
       </div>
     </div>
@@ -37,7 +36,6 @@
       <div class="container">
         <h1>Filipa Andrez</h1>
         <p class="numero">A042620</p>
-        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
         <p>a042620@ipmaia.pt</p>
       </div>
     </div>
@@ -49,7 +47,6 @@
       <div class="container">
         <h1>Gonçalo Silva</h1>
         <p class="numero">A038795</p>
-        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
         <p>a038795@ipmaia.pt</p>
       </div>
     </div>

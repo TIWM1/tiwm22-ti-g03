@@ -15,11 +15,25 @@ html {
     text-decoration: none;
     color: rgb(221, 85, 85);
   }
+  h2{
+    margin-top: auto;
+    margin-left: 75px;
+    margin-right: 75px;
+  }
+
+  ul li{
+    margin-top: auto;
+    margin-left: 75px;
+    margin-right: 75px;
+  }
+
   .site-header { 
     border-bottom: 1px solid #ccc;
     padding: .5em 1em;
     display: flex;
     justify-content: space-between;
+    margin-left: 75px;
+    margin-right: 75px;
   }
   
   .site-identity h1 {
@@ -42,33 +56,15 @@ html {
   }
 
   /* FOOTER */ 
-  .all-browsers {
-    margin: 0;
-    padding: 5px;
-    background-color: lightgray;
-  }
-  
-  .all-browsers > h1, .browser {
-    margin: 10px;
-    padding: 5px;
-  }
-  
-  .browser {
-    background: white;
-  }
-  
-  .browser > h2, p {
-    margin: 4px;
-    font-size: 90%;
-  }
+
   
   footer {
     text-align: center;
     padding: 3px;
     background-color: #aa6e0669;
     color: white;
+    margin :0 auto;
   }
-  
   /* BANNER */
 
   .banner { 
@@ -103,6 +99,10 @@ html {
   box-sizing: inherit;
 }
 
+.row {
+  margin-left: 75px;
+  margin-right: 75px;
+}
 .column {
   float: left;
   width: 33.3%;
@@ -113,6 +113,7 @@ html {
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   margin: 8px;
+  align-items: center;
 }
 
 .about-section {
@@ -123,7 +124,7 @@ html {
 }
 
 .container {
-  padding: 0 16px;
+  padding: 2px 16px
 }
 
 .container::after, .row::after {
@@ -138,26 +139,8 @@ html {
 
 /* TARECOS */
 
-/* Float four columns side by side */
-.coluna {
-  float: left;
-  width: 30%;
-  padding: 0 10px;
-}
-
-/* Remove extra left and right margins, due to padding */
-.ro {margin: 0 -5px;}
-
-/* Clear floats after the columns */
-.ro:after {
-  content: "";
-  display: flex;
-  clear: both;
-}
-
-
 /* Style the counter cards */
-.card {
+.tcard {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   padding: 20px;
   text-align: center;
@@ -191,3 +174,6 @@ tfoot{
   width: 350px;
   height: 75px;
 }
+
+/* DOAÇÃO */
+
