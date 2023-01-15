@@ -11,8 +11,7 @@
   <?php
   include "header.php"
   ?>
-
-
+  
 <h1 style="text-align:center">TARECOS</h1>
 <div class="row" >
   <div class="column">
@@ -67,10 +66,37 @@
     <br>
   </div>
 </div>
+<h1 style="text-align:center">CURIOSIDADE</h1>
+<table id="demo" class="table"></table><br>
 
 <?php
 include "footer.php"
 ?>
+
+ <script>
+ function loadXMLDoc(){
+            const xhttp = new XMLHttpRequest();
+            xhttp.onload = function(){
+                const xmlDoc = xhttp.responseXML;
+                const cd = xmlDoc.getElementsByTagName("Idade")
+                myFunction(cd)
+            }
+            xhttp.open("GET", "comparacao_idades.xml")
+            xhttp.send();
+        }
+        
+        function myFunction(cd){
+            let table ="<thead><tr><th>Gatos</th><th>Humano</th></tr></thead>";
+            for(let i = 0 ; i<cd.length ; i++){
+                table+= "<tr><td>" + 
+                    cd[i].getElementsByTagName("gato")[0].childNodes[0].nodeValue +
+                    "</td><td>" +
+                    cd[i].getElementsByTagName("humano")[0].childNodes[0].nodeValue +
+                    "</td>" 
+            }
+            document.getElementById("demo").innerHTML=table
+        }
+        loadXMLDoc();
+</script>
 </body>
-<script type="text/javascript" src="tabela.js"></script>
 </html>

@@ -1,0 +1,46 @@
+<ComparacaoIdade>
+    <Idade>
+        <gato>3 meses</gato>
+        <humano>4 anos</humano>
+    </Idade>
+    <Idade>
+        <gato>6 meses</gato>
+        <humano>9 anos</humano>
+    </Idade>
+    <Idade>
+        <gato>12 meses</gato>
+        <humano>15 anos</humano>
+    </Idade>
+    <Idade>
+        <gato>18 meses</gato>
+        <humano>20 anos</humano>
+    </Idade>
+    <Idade>
+        <gato>2 anos</gato>
+        <humano>24 anos</humano>
+    </Idade>
+    <Idade>
+        <gato>4 anos</gato>
+        <humano>32 anos</humano>
+    </Idade>
+    <Idade>
+        <gato>6 anos</gato>
+        <humano>40 anos</humano>
+    </Idade>
+    <Idade>
+        <gato>8 anos</gato>
+        <humano>48 anos</humano>
+    </Idade>
+    <Idade>
+        <gato>10 anos</gato>
+        <humano>56 anos</humano>
+    </Idade>
+    <Idade>
+        <gato>12 anos</gato>
+        <humano>64 anos</humano>
+    </Idade>
+    <Idade>
+        <gato>14 anos</gato>
+        <humano>72 anos</humano>
+    </Idade>
+</ComparacaoIdade>
