@@ -32,7 +32,7 @@
 <div class="row">
   <div class="column">
     <div class="card">
-      <img src="images/equipa/joao.jpg" alt="Jane" style="width:100%">
+      <img src="images/equipa/joao.jpg" alt="joao" style="width:100%">
       <div class="container">
         <h1>João Braga</h1>
         <p class="numero">A038728</p>
@@ -43,7 +43,7 @@
 
   <div class="column">
     <div class="card">
-      <img src="images/equipa/filipa.jpg" alt="Mike" style="width:100%">
+      <img src="images/equipa/filipa.jpg" alt="filipa" style="width:100%">
       <div class="container">
         <h1>Filipa Andrez</h1>
         <p class="numero">A042620</p>
@@ -54,7 +54,7 @@
   
   <div class="column">
     <div class="card">
-      <img src="images/equipa/silva.jpg" alt="John" style="width:100%">
+      <img src="images/equipa/silva.jpg" alt="goncalo" style="width:100%">
       <div class="container">
         <h1>Gonçalo Silva</h1>
         <p class="numero">A038795</p>

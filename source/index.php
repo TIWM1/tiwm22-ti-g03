@@ -10,7 +10,7 @@
 
 <body>
 
-<header  class="site-header">
+<header class="site-header">
   <div class="site-identity">
     <h1><a href="index.php">Tarecos do ISMIAU</a></h1>
   </div>  
