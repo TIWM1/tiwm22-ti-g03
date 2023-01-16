@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang= "pt">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,9 +8,20 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <?php
-  include "header.php"
-  ?>
+
+<header  class="site-header">
+  <div class="site-identity">
+    <h1><a href="index.php">Tarecos do ISMIAU</a></h1>
+  </div>  
+  <nav class="site-navigation">
+    <ul class="nav">
+      <li title= "Acesso à página principal."><a href="index.php">Página Inicial</a></li> 
+      <li title= "Conheça os nossos animais!"><a href="tarecos.php">Tarecos</a></li>
+      <li title= "Informações sobre a associação."><a href="sobre.php">Sobre Nós</a></li> 
+      <li title= "Saiba como doar!"><a href="doacao.php">Doações</a></li> 
+    </ul>
+  </nav>
+</header>
   
 <h1 style="text-align:center">TARECOS</h1>
 <div class="row" >
@@ -69,9 +80,12 @@
 <h1 style="text-align:center">CURIOSIDADE</h1>
 <table id="demo" class="table"></table><br>
 
-<?php
-include "footer.php"
-?>
+<footer>
+  <a href="tel:+351229866000" title="Ligue-nos!"><h4>+351 229 866 000</h4></a>
+  <a href="https://goo.gl/maps/TUgp65ujW35V5Zz86" ><h4>Av. Carlos de Oliveira Campos, 4475-690 Maia</h4></a>
+  <a href="mailto:tarecosismiau@gmail.com" title = "Envie-nos um email!"><h4>tarecosismiau@gmail.com</h4></a>
+  <h4>Copyright Tarecos ISMIAU</h4>
+</footer>
 
  <script>
  function loadXMLDoc(){

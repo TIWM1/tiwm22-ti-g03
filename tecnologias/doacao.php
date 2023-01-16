@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,17 +9,26 @@
 </head>
 
 <body>
-<?php
-include "header.php"
-?>
-
+<header  class="site-header">
+  <div class="site-identity">
+    <h1><a href="index.php">Tarecos do ISMIAU</a></h1>
+  </div>  
+  <nav class="site-navigation">
+    <ul class="nav">
+      <li title= "Acesso à página principal."><a href="index.php">Página Inicial</a></li> 
+      <li title= "Conheça os nossos animais!"><a href="tarecos.php">Tarecos</a></li>
+      <li title= "Informações sobre a associação."><a href="sobre.php">Sobre Nós</a></li> 
+      <li title= "Saiba como doar!"><a href="doacao.php">Doações</a></li> 
+    </ul>
+  </nav>
+</header>
 <h1 style="text-align:center">QUER DOAR ?</h1><br>
 
-<p><h2>Caso não tenha possibilidades de adotar um dos nossos gatos, mas queira na mesma ajudar a associação, pode fazer um donativo através do Paypal. 
-Esse dinheiro será usado para comprar bens, rações e medicação para os nossos animais.</h2></p>
+<h2>Caso não tenha possibilidades de adotar um dos nossos gatos, mas queira na mesma ajudar a associação, pode fazer um donativo através do Paypal. 
+Esse dinheiro será usado para comprar bens, rações e medicação para os nossos animais.</h2>
 
 
-<p><h2>Se não quiser ajudar mas prefere não fazer donativos em forma de dinheiro pode também dirigir-se à nossa associação e doar, por exemplo:</h2></p>
+<h2>Se não quiser ajudar mas prefere não fazer donativos em forma de dinheiro pode também dirigir-se à nossa associação e doar, por exemplo:</h2>
 <ul>
   <li><h4>AREIA</h4></li>
   <li><h4>RAÇÃO SECA OU HÚMIDA</h4></li>
@@ -32,14 +41,17 @@ Esse dinheiro será usado para comprar bens, rações e medicação para os noss
 <br>
 
 <a href="https://www.paypal.com/myaccount/summary">  
-<img class ="center" src="images/paypal.png"><br></a>
+<img class ="center" src="images/paypal.png" alt=""><br></a>
 
 
 
 
-<?php
-include "footer.php"
-?>
+<footer>
+  <a href="tel:+351229866000" title="Ligue-nos!"><h4>+351 229 866 000</h4></a><p>
+  <h4>Av. Carlos de Oliveira Campos, 4475-690 Maia</h4>
+  <a href="mailto:tarecosismiau@gmail.com" title = "Envie-nos um email!"><h4>tarecosismiau@gmail.com</h4></a>
+  <h4>Copyright Tarecos ISMIAU</h4>
+</footer>
 </body>
 
 
